@@ -1,0 +1,55 @@
+VARIABLES AND FUNCTIONS IN PYTHON
+
+VARIABLES
+
+A variable is a name given to a memory location that is used to store data in a program. Variables help us save information and use it whenever needed during program execution. The value stored in a variable can be changed at any time.
+
+Example:
+name = "Elakiya"
+age = 20
+marks = 95
+
+In the above example, name, age, and marks are variables that store different values.
+
+Advantages of Variables:
+• Easy storage and retrieval of data.
+• Improves program readability.
+• Reduces repetition of values.
+• Makes programs easier to modify and maintain.
+
+FUNCTIONS
+
+A function is a block of reusable code that performs a specific task. Functions help avoid writing the same code repeatedly and make programs more organized and efficient.
+
+A function can receive inputs called parameters and may return a result after performing its task.
+
+Example:
+
+def greet():
+    print("Welcome to Python")
+
+greet()
+
+Output:
+Welcome to Python
+
+Function with Parameters:
+
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+
+Output:
+30
+
+Advantages of Functions:
+• Promotes code reusability.
+• Reduces duplication of code.
+• Improves readability.
+• Makes debugging easier.
+• Helps organize large programs into smaller modules.
+
+CONCLUSION
+
+Variables are used to store and manage data, while functions are used to perform specific tasks. Both are essential components of Python programming and help in creating efficient, readable, and well-structured programs.
